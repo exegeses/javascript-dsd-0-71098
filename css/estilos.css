@@ -64,3 +64,29 @@ h1{
         color: var(--text);
         font-size: 24px;
     }
+
+.botones{
+        background-color:  hsl(278, 28%, 30%);
+        padding: 8px;
+        margin: 16px;
+        display: inline-block;
+        border-radius: 12px;
+        color: var(--text);
+        margin: 2px;
+        transition: 500ms;
+    &:hover{
+        background-color:  hsl(278, 28%, 36%);
+    }
+}
+
+#caja{
+    margin-top: 32px;
+    padding: 24px;
+    color: var(--bg-color);
+    width: 200px;
+    height: 200px;
+    background-color: #a8a8a8;
+    border-radius: 12px;
+    rotate: 0deg;
+    transition: 500ms;
+}
