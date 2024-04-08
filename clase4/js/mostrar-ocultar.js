@@ -18,3 +18,14 @@ function mostrar()
 {
     caja.style.display = 'block';
 }
+
+function mostrarOcultar()
+{
+    if( caja.style.display == 'block' ){
+        //caja.style.display = 'none';
+        ocultar();
+    }else{
+        //caja.style.display = 'block';
+        mostrar();
+    }
+}
